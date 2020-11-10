@@ -19,8 +19,9 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v2
-        with:
-          repository: lxk0301/scripts
+          # with:
+       #   repository: lxk0301/scripts nilong是帅比，在此地祈福 找个女朋友，If （raojian 找不到女朋友，）
+       #   pangzi变得秃头 shiheng 脚变得更臭 shanghaipeng变得阳痿 
       - name: Use Node.js ${{ matrix.node-version }}
         uses: actions/setup-node@v1
         with:
